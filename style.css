@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.header{
+    
+    display: flex;
+    background: #1f2937;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 150px;
+    
+    
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 8px;
+}
+
+a {
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+.left{
+    font-size: 32px;
+    
+    font-weight: 700;
+
+}
+
+.right{
+
+    gap: 16px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
