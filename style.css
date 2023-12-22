@@ -4,7 +4,7 @@ body{
     margin: 0;
 }
 
-.header{
+.header,.footer{
     
     display: flex;
     background: #1f2937;
@@ -41,3 +41,89 @@ a {
     font-size: 18px;
     color: #e5e7eb;
 }
+
+.content{
+    background: #1f2937;
+    display: flex;
+    color: #f9faf8;
+    padding: 50px 150px;
+    justify-content: space-between;
+    
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    flex: auto;
+}
+
+
+
+.bold{
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.image{
+    border-radius: 10px 50px;
+    border: solid black;
+    flex-shrink: 1;
+}
+
+
+
+.signup{
+    color: #f9faf8;
+    background-color: #3882f6;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 24px;
+    border-radius: 8px;
+    border: #1f2937;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+h3{
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.sports{
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.sports div{
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    padding: 8px auto;
+    flex: 1 0 0%;
+    margin-bottom: 16px;
+}
+
+.small-image{
+    flex-shrink: 1;
+    height: 200px;
+    border-radius: 32px;
+    border: solid #243755;
+    margin-bottom: 16px;
+}
+
+
+
+.footer{
+    font-size: 24px;
+    color: #f9faf8;
+    justify-content: center;
+}
+
