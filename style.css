@@ -100,6 +100,7 @@ h3{
     display: flex;
     justify-content: space-between;
     gap: 32px;
+    flex-wrap: wrap;
 }
 
 .sports div{
@@ -107,8 +108,9 @@ h3{
     flex-direction: column;
     font-size: 16px;
     padding: 8px auto;
-    flex: 1 0 0%;
+    flex: 0 0 0%;
     margin-bottom: 16px;
+    
 }
 
 .small-image{
@@ -117,6 +119,31 @@ h3{
     border-radius: 32px;
     border: solid #243755;
     margin-bottom: 16px;
+}
+
+.quote{ 
+    background: #e5e7eb;
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    height: 400px;
+}
+.quote div{
+    flex:0 0 auto;
+}
+.author{
+    font-weight: bolder;
+    font-size: 24px;
+    display: flex;  
+}
+
+.author div{
+    flex: 0 0 auto;
 }
 
 
