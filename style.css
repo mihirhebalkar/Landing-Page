@@ -101,6 +101,8 @@ h3{
     justify-content: space-between;
     gap: 32px;
     flex-wrap: wrap;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 .sports div{
@@ -157,6 +159,8 @@ h3{
     color: #e5e7eb;
     font-size: 24px;
     font-weight: 600;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 
 .box div{
@@ -164,8 +168,7 @@ h3{
     flex: 1;
     justify-content: space-between;
     align-items: center;
-    gap: 40px;
-    
+    gap: 60px;    
 }
 
 .footer{
